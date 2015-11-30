@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Miguel Herranz"]
   spec.email         = ["miguel@ipglider.org"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Parameters modeled as objects for Rails.}
+  spec.description   = %q{ModeledParameters is a library for Rails applications that allows to model input parameters as objects.}
+  spec.homepage      = "https://github.com/IPGlider/modeled_parameters"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
