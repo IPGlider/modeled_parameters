@@ -1,5 +1,8 @@
 require "modeled_parameters/version"
+require 'modeled_parameters/controller'
+require 'modeled_parameters/model'
 
 module ModeledParameters
-  # Your code goes here...
+  class NotDefinedError < StandardError; end
+  class NotValidError < StandardError; end
 end
