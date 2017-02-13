@@ -1,8 +1,10 @@
 require 'active_model'
+require 'virtus'
 
 module ModeledParameters
   class Model
     include ActiveModel::Model
+    include Virtus.model
 
     def initialize(original_attributes = {})
       attributes = {}
